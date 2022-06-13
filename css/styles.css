@@ -14,7 +14,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     background-color: var(--hover-txt-btn);
     color: var(--txt-gray-color);
     
@@ -126,6 +126,7 @@ body {
 .description {
     line-height: 1.88;
     letter-spacing: 0.03em;
+    font-size: 16px;
 }
 /* конец контента странички портфолио */
 
@@ -144,21 +145,19 @@ body {
 }
 .adress-bottom {
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--hover-txt-btn);
+}
+.adress-bottom:hover, 
+.adress-bottom:focus {
+    color: var(--base-blue-color);
+
 }
 .email-bottom, 
 .tel-bottom {
     text-decoration: none;
     color: var( --txt-gray-color);
-    font-weight: 500;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-
 }
 .email-bottom:hover, 
 .tel-bottom:hover,
@@ -258,6 +257,7 @@ body {
 .description-our-team {
     line-height: 1.19;
     text-align: center;
+    font-size: 16px;
 
 }
 .our-team-block {
